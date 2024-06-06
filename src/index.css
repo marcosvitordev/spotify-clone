@@ -2,6 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cor1 {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.text-h1 {
+    color: rgba(255, 255, 255, 0.514);
+    font-weight: 500;
+}
+
+.btn-biblioteca {
+    background-color: rgba(81, 80, 80, 0.89);
+}
+
+.btn-biblioteca:hover {
+    background-color: rgba(115, 114, 114, 0.93);
+}
+
+.ponto {
+    background-color: rgba(81, 80, 80, 0.89);
+    border: 2px solid;
+    width: 3px;
+    height: 3px;
+
+}
+
+.scroll::-webkit-scrollbar {
+    border-bottom-right-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(81, 80, 80, 0.89);
+    border-bottom-right-radius: 10px;
+}
+
+#cor2:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.seta-btn {
+    background-color: rgba(83, 81, 81, 0.759);
+    border-radius: 50%;
+
+}
+.seta-btn:hover{
+    background-color: rgba(107, 106, 106, 0.978);
+    border-radius: 50%;
+    
+}
+.img-painel{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.cor-1:hover{
+    background-color: rgba(136, 136, 136, 0.978);
+    transition-delay: 0.1s;
+    opacity: 70%;
+}
+.cor-1{
+    background-color: rgba(119, 113, 113, 0.426);
+
+}
+.mnt-music{
+    color: rgba(255, 255, 255, 0.426);
+}
+.truncate { /* Define a largura máxima do contêiner */
+    display: -webkit-box; /* Define o contêiner como uma caixa flexível para WebKit */
+    -webkit-box-orient: vertical; /* Define a orientação do contêiner como vertical */
+    -webkit-line-clamp: 2; /* Define o número de linhas antes de truncar */
+    overflow: hidden; /* Oculta o conteúdo que excede a área do contêiner */
+    text-overflow: ellipsis; /* Adiciona as reticências (...) ao final do texto truncado */
+    white-space: normal; /* Permite quebras de linha normais */
+    line-height: 1.5; /* Define a altura da linha para controlar a quantidade de texto visível */
+    height: 3em; /* Altura suficiente para duas linhas com a linha definida em 1.5em */
+     /* Opcional: apenas para visualização */
+    color: rgba(255, 255, 255, 0.426);
+    font-weight: 400;
+}
+.cards-1:hover{
+    background-color: rgba(171, 167, 167, 0.159);
+}
+.img-painel-2{
+    border-radius: 5px;
 }
