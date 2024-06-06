@@ -1,7 +1,6 @@
 import React from 'react'
 import { CgAdd } from "react-icons/cg";
-import { LiaRandomSolid,CgPlayTrackPrev,CgPlayTrackNext } from "react-icons/lia";
-import { FaPlayCircle } from "react-icons/fa";
+import { LiaRandomSolid} from "react-icons/lia";
 
 import Image from '../assets/Musicas/Albun-1/cd_cover.jpeg'
 
@@ -14,15 +13,11 @@ const Player = () => {
                     <p className='text-white font-bold cursor-pointer'>Nome da Musica</p>
                     <p className='mnt-music cursor-pointer'>Nome cantor, Cantor</p>
                 </div>
-                <CgAdd size={23} className='mnt-music' />
             </div>
 
             <div>
                 <div>
-                    <LiaRandomSolid className='mnt-music' size={25}/>
-                    <CgPlayTrackPrev className='mnt-music' size={25}/>
-                    <FaPlayCircle className='mnt-music' size={25}/>
-                    <CgPlayTrackNext className='mnt-music' size={25}/>
+                   
 
 
                 </div>
